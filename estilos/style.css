@@ -101,3 +101,34 @@ main {
   gap: 1em;
   margin-top: 15px
 }
+
+#detalhes {
+  grid-column: 2;
+}
+
+article {
+  background-color: var(--fundo-card);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+article h2 {
+  color: var(--destaque);
+  margin-bottom: 10px;
+}
+
+.video-conteiner {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  aspect-ratio: 16/9;
+}
+
+.video-conteiner iframe {
+  position: absolute;
+  top: 0;
+
+}
+
+
